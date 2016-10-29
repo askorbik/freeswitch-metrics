@@ -14,9 +14,7 @@ Requirements
 ------------
 - Python 2.7.x
 - Celery
-- Gunicorn
 - Influxdb
-- Nginx
 - Supervisor
 - Freeswitch with mod_json and mod_curl
 - OpenSips with module fifo, xmlrpc or unixsock
@@ -29,7 +27,16 @@ image here
 
 Overview
 --------
-Using Grafana
-```
-image here
-```
+Using Grafana as GUI:
+
+opensips dialogs number (active + early states)
+
+![opensips dialogs](http://195.154.255.170/img/cscf.png)
+
+opensips release causes (using redis for opensips log storage)
+
+![opensips releases](http://195.154.255.170/img/releases_causes.png)
+
+freeswitch (using mod_json_cdr)
+
+![freeswitch stats](http://195.154.255.170/img/hpbx.png)
