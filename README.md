@@ -1,6 +1,6 @@
 # VOIP METRICS
 
-IMS Dynamics VoIP Metrics - FreeSwitch, OpenSips, Asterisk
+IMS Dynamics VoIP Metrics - FreeSwitch + OpenSips
 
 20160205 sam j. muller
 
@@ -11,6 +11,8 @@ voip statistics for freeswitch and opensips
 
 stats are parsed in real-time using Tornado then pushed to influxdb
 
+python 2.7.x
+
 - running apps
 --
 - celery
@@ -18,4 +20,12 @@ stats are parsed in real-time using Tornado then pushed to influxdb
 - influxdb
 - nginx
 - supervisor
+
+- freeswitch config
+--
+
+
+
+- opensips config
+--
 
