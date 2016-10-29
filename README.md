@@ -19,11 +19,6 @@ Requirements
 - Freeswitch with mod_json and mod_curl
 - OpenSips with module fifo, xmlrpc or unixsock
 
-Schema
-------
-```
-image here
-```
 
 Overview
 --------
