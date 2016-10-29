@@ -28,7 +28,7 @@ opensips dialogs number (active + early states)
 
 ![opensips dialogs](http://195.154.255.170/img/cscf.png)
 
-opensips release causes (using redis for opensips log storage)
+opensips release causes (using redis for opensips "onreply" log storage)
 
 ![opensips releases](http://195.154.255.170/img/releases_causes.png)
 
