@@ -1,31 +1,35 @@
 # VOIP METRICS
-
+==============
 IMS Dynamics VoIP Metrics - FreeSwitch + OpenSips
 
 20160205 sam j. muller
 
-- description
---
+Description
+-----------
 
 voip statistics for freeswitch and opensips
-
 stats are parsed in real-time using Tornado then pushed to influxdb
 
-python 2.7.x
+Requirements
+------------
+- Python 2.7.x
+- Celery
+- Gunicorn
+- Influxdb
+- Nginx
+- Supervisor
+- Freeswitch with mod_json and mod_curl
+- OpenSips with module fifo, xmlrpc or unixsock
 
-- running apps
---
-- celery
-- gunicorn
-- influxdb
-- nginx
-- supervisor
+Schema
+------
+```
+image here
+```
 
-- freeswitch config
---
-
-
-
-- opensips config
---
-
+Overview
+--------
+Using Grafana
+```
+image here
+```
