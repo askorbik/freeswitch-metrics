@@ -1,14 +1,13 @@
-# VoIP Metrics
+# FreeSwitch Metrics
 ==============
-IMS Dynamics VoIP Metrics - FreeSwitch + OpenSips
+Part of IMS Dynamics VoIP Metrics
 
-20160205 sam j. muller
+20161030 Sam J. Muller
 
 Description
 -----------
 
-voip statistics for freeswitch and opensips
-stats are parsed in real-time using Tornado then pushed to influxdb
+VoIP statistics for FreeSwitch. The module json_cdr permits to send full CDR to several IPs. Tornado catch them, then the stats are parsed in real-time then pushed to InfluxDB.
 
 Requirements
 ------------
@@ -16,21 +15,11 @@ Requirements
 - Celery
 - Influxdb
 - Supervisor
-- Freeswitch with mod_json and mod_curl
-- OpenSips with module fifo, xmlrpc or unixsock
-
+- Freeswitch with mod_json_cdr
 
 Overview
 --------
 Using Grafana as GUI:
-
-opensips dialogs number (active + early states)
-
-![opensips dialogs](http://195.154.255.170/img/cscf.png)
-
-opensips release causes (using redis for opensips "onreply" log storage)
-
-![opensips releases](http://195.154.255.170/img/releases_causes.png)
 
 freeswitch (using mod_json_cdr)
 
