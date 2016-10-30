@@ -23,4 +23,4 @@ Using Grafana as GUI:
 
 freeswitch (using mod_json_cdr)
 
-![freeswitch stats](http://195.154.255.170/img/hpbx.png)
+![freeswitch stats](http://195.154.255.170/img/hpbx-gh.png)
